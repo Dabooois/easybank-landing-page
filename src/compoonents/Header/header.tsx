@@ -5,10 +5,9 @@ import LogoIcon from '../../assets/images/logo.svg';
 const Header = () => {
   const [toggle, setToggle] = useState(false);
   return (
-    <HeaderContainer className='shadow-lg'>
-      <LogoContainer>
-        <img src={LogoIcon} alt='easybank logo ' className='bg-white' />
-      </LogoContainer>
+    <HeaderContainer className='shadow-lg relative top-0 bg-white z-10'>
+      <img src={LogoIcon} alt='easybank logo ' className='bg-white' />
+
       <HamBurgerMenu
         className={` ${toggle ? 'open' : ''} `}
         onClick={() => setToggle((toggle) => !toggle)}

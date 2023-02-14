@@ -19,14 +19,12 @@ export const HamBurgerMenu = styled.button`
   height: 3rem;
   cursor: pointer;
   position: relative;
-  transform: rotate(0deg);
-  transition: 0.5s ease-in-out;
+
   span {
     width: 100%;
+    border: 1px solid black;
     position: absolute;
     left: 0;
-    border: 1px solid black;
-
     transition: 0.25s ease-in-out;
     &:nth-child(1) {
       top: 0.7rem;
