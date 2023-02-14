@@ -26,7 +26,7 @@ export const HamBurgerMenu = styled.button`
     position: absolute;
     left: 0;
     border: 1px solid black;
-    margin: auto 0;
+
     transition: 0.25s ease-in-out;
     &:nth-child(1) {
       top: 0.7rem;
