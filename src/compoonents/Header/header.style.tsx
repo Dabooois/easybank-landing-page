@@ -38,3 +38,19 @@ export const HamBurgerMenu = styled.button`
     }
   }
 `;
+
+type TActive = {
+  active?: boolean | false;
+};
+
+export const Overlay = styled.div<TActive>`
+  position: fixed;
+  display: ${({ active }) => (active ? 'none' : 'block')};
+  top: 0;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  background-color: #0009;
+  z-index: 10;
+  cursor: pointer;
+`;

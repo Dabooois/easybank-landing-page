@@ -5,6 +5,8 @@ module.exports = {
     extend: {
       fontSize: {
         regular: '1.8rem',
+        title: '4rem',
+        normal: '1.6rem',
       },
       colors: {
         //primary
