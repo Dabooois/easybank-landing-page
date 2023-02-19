@@ -32,7 +32,7 @@ const Banner = () => {
         />
       </div>
       <div className='flex justify-center  '>
-        <div className='flex flex-col gap-8 justify-center px-[4rem] 2xl:mt-[-32rem]'>
+        <div className='flex flex-col gap-8 justify-center 2xl:pr-[8rem] 2xl:mt-[-32rem]'>
           <Title>Next generation digital banking</Title>
           <Paragraph className='mt-4'>
             Take your financial life online. Your Easybank account will be a

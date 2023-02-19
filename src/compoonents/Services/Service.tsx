@@ -6,7 +6,7 @@ import { CardContainer } from './Service.styles';
 const Service = () => {
   return (
     // lg:top-[-30rem] lg:z-[20]
-    <section className='relative w-full top-[-32rem]  py-16 md:py-36 bg-lightGreyishBlue '>
+    <section className='relative w-full top-0  2xl:mt-[-32rem] 2xl:mb-[16rem] py-16 md:py-36  bg-lightGreyishBlue '>
       <div className='container flex flex-col gap-8 '>
         <Title subtitle as='h4'>
           Why choose Easybank ?

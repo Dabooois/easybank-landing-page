@@ -10,7 +10,7 @@ function App() {
   return (
     <div className='App'>
       <Header />
-      <main>
+      <main className='relative'>
         <Banner />
         <Service />
         <Article />
