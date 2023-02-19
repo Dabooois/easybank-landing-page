@@ -7,4 +7,5 @@ export const CardContainer = tw.div`
     items-center
     gap-8
     mt-8
+    lg:items-start
 `;

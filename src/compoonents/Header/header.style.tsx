@@ -1,13 +1,42 @@
 import styled from 'styled-components';
 import tw from 'twin.macro';
+// w-full
+// grid
+// grid-cols-2
+// lg:grid-cols-3
+// items-center
+// px-[3rem]
+// py-[2rem]
+// items-center
+export const HeaderWrapper = tw.header`
+    w-full
+    shadow-lg
+    absolute
+    md:static
+    top-0 
+    left-0 
+    bg-white 
+    z-40 
+`;
 
-export const HeaderContainer = styled.header`
+export const HeaderContainer = styled.div`
   width: 100%;
-  display: flex;
+  display: grid;
+  grid-template-columns: max-content max-content;
   justify-content: space-between;
   align-items: center;
-  padding-inline: 3rem;
+
   padding-block: 2rem;
+  gap: 4rem;
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(3, max-content);
+  }
+  @media (min-width: 1024px) {
+    .container {
+      padding-inline: 10rem;
+    }
+  }
 `;
 
 export const LogoContainer = tw.div`

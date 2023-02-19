@@ -24,3 +24,35 @@ button.open span:nth-child(3) {
 button.open span:nth-child(4) {
   display: none;
 }
+/* .container {
+  max-width: 144rem;
+  padding-inline: 2rem;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-inline: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding-inline: 10rem;
+  }
+} */
+/* .grid-banner {
+  grid-template-columns: 50rem 90rem;
+} */
+
+/* @media (min-width: 102.4rem) {
+  .grid-banner {
+    grid-template-columns: 20rem 90rem;
+  }
+} */
+
+/* @media (min-width: 140rem) {
+  .grid-banner {
+    grid-template-columns: 50rem 90rem;
+  }
+} */

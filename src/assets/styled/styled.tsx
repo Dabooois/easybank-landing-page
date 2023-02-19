@@ -5,6 +5,8 @@ export const Paragraph = tw.p`
     text-normal
     font-customThin
     text-greyishBlue
+    md:text-center
+    lg:text-left
 `;
 
 interface ITitle {
@@ -16,4 +18,8 @@ export const Title = styled.h1<ITitle>`
   font-size: ${({ subtitle }) => (subtitle ? '3.8rem' : '4.3rem')};
   line-height: 1.25;
   color: hsl(233, 26%, 24%);
+
+  @media (min-width: 768px) {
+    text-align: left;
+  }
 `;

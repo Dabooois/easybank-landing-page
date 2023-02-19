@@ -15,12 +15,6 @@ const CustomStyles = createGlobalStyle({
     boxSizing: 'inherit',
     fontSize: '62.5%',
   },
-  '.container': {
-    maxWidth: '144rem',
-    paddingInline: '2rem',
-    marginLeft: 'auto',
-    marginRight: 'auto',
-  },
 });
 
 const GlobalStyles = () => (

@@ -9,9 +9,9 @@ type TArticleCard = {
 
 const ArticleCard = ({ path, author, title, description }: TArticleCard) => {
   return (
-    <div className='shadow-sm  rounded-b-xl'>
-      <img src={path} alt={title} className='rounded-t-xl' />
-      <div className='flex flex-col gap-4 bg-white text-greyishBlue p-12  rounded-b-xl'>
+    <div className='shadow-sm flex flex-col rounded-b-xl'>
+      <img src={path} alt={title} className='rounded-t-xl h-80 object-cover' />
+      <div className='flex flex-col gap-6 bg-white text-greyishBlue p-12   rounded-b-xl'>
         <p className='text-[1.2rem] font-customThin'>By {author}</p>
         <h5 className='text-normal font-bold leading-snug text-darkBlue'>
           {title}

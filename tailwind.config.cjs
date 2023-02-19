@@ -23,6 +23,21 @@ module.exports = {
         customRegular: '400',
         customBold: '700',
       },
+      gridTemplateColumns: {
+        footer: '1fr  1fr 1fr',
+        banner2xl: '50rem 90rem',
+        bannerlg: '33.75% 62.5%',
+      },
+      container: {
+        center: true,
+        padding: {
+          DEFAULT: '1rem',
+          sm: '2rem',
+          lg: '2rem',
+          xl: '5rem',
+          '2xl': '6rem',
+        },
+      },
     },
   },
   plugins: [],

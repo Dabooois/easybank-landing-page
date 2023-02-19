@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const ButtonStyle = styled.button`
+export const StyledButton = styled.button`
   background-image: linear-gradient(
     to right,
     hsl(136, 65%, 51%),
@@ -8,5 +8,7 @@ export const ButtonStyle = styled.button`
   );
   font-weight: bold;
   color: white;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
+  padding: 1.5rem 3.5rem;
+  border-radius: 9999px;
 `;
