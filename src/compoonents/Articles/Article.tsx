@@ -5,7 +5,7 @@ import ArticleCard from './Article.card';
 
 const Article = () => {
   return (
-    <section className='relative  '>
+    <section className='relative mb-64'>
       <div className='container flex flex-col gap-16 '>
         <Title as='h4' subtitle>
           Latest Articles

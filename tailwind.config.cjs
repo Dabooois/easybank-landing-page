@@ -25,8 +25,8 @@ module.exports = {
       },
       gridTemplateColumns: {
         footer: '1fr  1fr 1fr',
-        banner2xl: '50rem 90rem',
-        bannerlg: '33.75% 62.5%',
+        banner2xl: '46rem 94rem',
+        bannerlg: '39.8rem 74.6rem',
       },
       container: {
         center: true,

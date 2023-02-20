@@ -10,7 +10,7 @@ import { StyledButton } from '../Button/button.styles';
 
 const Footer = () => {
   return (
-    <footer className=' relative top-[21rem] bg-darkBlue '>
+    <footer className=' relative bg-darkBlue '>
       <div className='container grid md:grid-cols-footer items-center gap-12 py-16'>
         <div className='icons flex  flex-col  gap-12  '>
           <LogoIcon className='icon-bike mx-auto md:mx-0  text-regular' />

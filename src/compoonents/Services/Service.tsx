@@ -6,12 +6,12 @@ import { CardContainer } from './Service.styles';
 const Service = () => {
   return (
     // lg:top-[-30rem] lg:z-[20]
-    <section className='relative w-full top-0  2xl:mt-[-32rem] 2xl:mb-[16rem] py-16 md:py-36  bg-lightGreyishBlue '>
+    <section className='relative w-full top-0  2xl:mt-[-32rem] xl:mt-[-32rem] lg:mt-[-32rem]  mb-[16rem] py-32 md:py-36  bg-lightGreyishBlue '>
       <div className='container flex flex-col gap-8 '>
         <Title subtitle as='h4'>
           Why choose Easybank ?
         </Title>
-        <Paragraph className='md:max-w-[60rem]'>
+        <Paragraph className='md:max-w-[60rem] md:mx-auto lg:ml-0'>
           We leverage Open Banking to turn your bank account into your financial
           hub. Control finances like never before.
         </Paragraph>
