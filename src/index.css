@@ -24,6 +24,7 @@ button.open span:nth-child(3) {
 button.open span:nth-child(4) {
   display: none;
 }
+
 /* .container {
   max-width: 144rem;
   padding-inline: 2rem;

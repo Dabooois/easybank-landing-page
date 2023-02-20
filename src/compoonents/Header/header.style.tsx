@@ -12,7 +12,7 @@ export const HeaderWrapper = tw.header`
     w-full
     shadow-lg
     absolute
-    md:static
+    lg:static
     top-0 
     left-0 
     bg-white 
@@ -25,13 +25,14 @@ export const HeaderContainer = styled.div`
   grid-template-columns: max-content max-content;
   justify-content: space-between;
   align-items: center;
-
   padding-block: 2rem;
   gap: 4rem;
 
   @media (min-width: 768px) {
+    padding-block: 0;
     grid-template-columns: repeat(3, max-content);
   }
+
   @media (min-width: 1024px) {
     .container {
       padding-inline: 10rem;
@@ -82,4 +83,22 @@ export const Overlay = styled.div<TActive>`
   background-color: #0009;
   z-index: 10;
   cursor: pointer;
+`;
+
+export const Navigation = styled.nav`
+  ul {
+    li {
+      border-bottom-width: 2px;
+      border-image-slice: 1;
+      border-bottom: 2px solid transparent;
+
+      &:hover {
+        border-image-source: linear-gradient(
+          to right,
+          hsl(136, 65%, 51%),
+          hsl(192, 70%, 51%)
+        );
+      }
+    }
+  }
 `;
