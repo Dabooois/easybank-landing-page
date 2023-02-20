@@ -1,7 +1,7 @@
 import { Paragraph, Title } from '../../assets/styled/styled';
 import ServiceCard from './Service.card';
 import { ServiceData } from '../../constants/data.json';
-import { CardContainer } from './Service.styles';
+import { CardContainer } from '../../assets/styled/Service.styles';
 
 const Service = () => {
   return (

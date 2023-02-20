@@ -1,11 +1,11 @@
 import React from 'react';
-import { BannerSection } from './banner.style';
-import BannerMobile from '../../assets/images/bg-intro-mobile.svg';
-import BannerDesktop from '../../assets/images/bg-intro-desktop.svg';
-import ImageMockups from '../../assets/images/image-mockups.png';
 
-import { Paragraph, Title } from '../../assets/styled/styled';
-import { StyledButton } from '../Button/button.styles';
+import BannerMobile from '@assets/images/bg-intro-mobile.svg';
+import BannerDesktop from '@assets/images/bg-intro-desktop.svg';
+import ImageMockups from '@assets/images/image-mockups.png';
+
+import { Paragraph, Title } from '@assets/styled/styled';
+import { StyledButton } from '@assets/styled/button.styles';
 
 const Banner = () => {
   return (
@@ -27,7 +27,6 @@ const Banner = () => {
         <img
           src={BannerDesktop}
           alt='easybank mobile banner'
-          // style={{ transform: 'translateX(16rem)' }}
           className='hidden lg:block  absolute top-0 bottom-0 2xl:right-[-12rem] w-full h-full z-[-10] mt-[-22rem]  '
         />
       </div>

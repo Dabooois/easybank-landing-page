@@ -5,11 +5,10 @@ import {
   Navigation,
   HamBurgerMenu,
   Overlay,
-} from './header.style';
-import LogoIcon from '../../assets/images/logo.svg';
-import Button from '../Button/Button';
+} from '@assets/styled/header.styles';
+import LogoIcon from '@assets/images/logo.svg';
 import tw from 'twin.macro';
-import { StyledButton } from '../Button/button.styles';
+import { StyledButton } from '@assets/styled/button.styles';
 
 const HeaderButton = tw(StyledButton)`
   hidden

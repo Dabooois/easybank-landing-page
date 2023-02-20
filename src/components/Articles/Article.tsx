@@ -1,6 +1,6 @@
 import React from 'react';
-import { Title } from '../../assets/styled/styled';
-import { ArtileData } from '../../constants/data.json';
+import { Title } from '@assets/styled/styled';
+import { ArtileData } from '@constants/data.json';
 import ArticleCard from './Article.card';
 
 const Article = () => {

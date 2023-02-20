@@ -1,6 +1,6 @@
 import React from 'react';
 import { Paragraph } from '../../assets/styled/styled';
-import { CardContainer } from './Service.styles';
+import { CardContainer } from '../../assets/styled/Service.styles';
 
 interface IServiceCard {
   url: string;

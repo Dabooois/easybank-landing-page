@@ -1,11 +1,14 @@
 import React from 'react';
-import { ReactComponent as LogoIcon } from '../../assets/images/logo-footer.svg';
-
-import { ReactComponent as IG } from '../../assets/images/icon-instagram.svg';
-import { StyledButton } from '../Button/button.styles';
-import { Navigation } from '../Header/header.style';
-import { FaceBook, Youtube, Twitter, Pinterest } from './footer.styles';
-// hover:fill-[#31d35c]
+import { ReactComponent as LogoIcon } from '@assets/images/logo-footer.svg';
+import { StyledButton } from '@assets/styled/button.styles';
+import { Navigation } from '@assets/styled/header.styles';
+import {
+  FaceBook,
+  Youtube,
+  Twitter,
+  Pinterest,
+  IG,
+} from '@assets/styled/footer.styles';
 const Footer = () => {
   return (
     <footer className=' relative bg-darkBlue '>

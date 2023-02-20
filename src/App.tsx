@@ -1,9 +1,9 @@
 import { useState } from 'react';
-import Article from './compoonents/Articles/Article';
-import Banner from './compoonents/Banner/banner';
-import Footer from './compoonents/Footer/Footer';
-import Header from './compoonents/Header/header';
-import Service from './compoonents/Services/Service';
+import Article from '@components/Articles/Article';
+import Banner from '@components/Banner/banner';
+import Footer from '@components/Footer/Footer';
+import Header from '@components/Header/header';
+import Service from '@components/Services/Service';
 import './index.css';
 
 function App() {
