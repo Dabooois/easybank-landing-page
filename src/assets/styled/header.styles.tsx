@@ -84,8 +84,11 @@ export const Overlay = styled.div<TActive>`
   z-index: 10;
   cursor: pointer;
 `;
+type TNav = {
+  isNav: boolean | false;
+};
 
-export const Navigation = styled.nav`
+export const Navigation = styled.nav<TNav>`
   ul {
     li {
       border-bottom-width: 2px;
@@ -93,11 +96,11 @@ export const Navigation = styled.nav`
       border-bottom: 2px solid transparent;
 
       &:hover {
-        border-image-source: linear-gradient(
-          to right,
-          hsl(136, 65%, 51%),
-          hsl(192, 70%, 51%)
-        );
+        color: ${({ isNav }) => (isNav ? '' : 'hsl(136, 65%, 51%)')};
+        border-image-source: ${({ isNav }) =>
+          isNav
+            ? 'linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%))'
+            : ''};
       }
     }
   }

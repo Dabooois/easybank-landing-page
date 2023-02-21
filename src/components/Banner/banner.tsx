@@ -39,7 +39,7 @@ const Banner = () => {
             more.
           </Paragraph>
           <StyledButton className='mx-auto lg:ml-0 mt-4'>
-            Request Invites
+            Request Invite
           </StyledButton>
         </div>
       </div>

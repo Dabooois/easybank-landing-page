@@ -13,7 +13,7 @@ const ArticleCard = ({ path, author, title, description }: TArticleCard) => {
       <img src={path} alt={title} className='rounded-t-xl h-80 object-cover' />
       <div className='flex flex-col gap-6 bg-white text-greyishBlue p-12 lg:p-8 xl:p-12   rounded-b-xl'>
         <p className='text-[1.2rem] font-customThin'>By {author}</p>
-        <h5 className='text-normal font-bold leading-snug text-darkBlue'>
+        <h5 className='text-normal md:text-regular leading-snug cursor-pointer text-darkBlue hover:text-limeGreen'>
           {title}
         </h5>
         <p className='text-[1.4rem] font-customThin'>{description}</p>

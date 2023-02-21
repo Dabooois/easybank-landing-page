@@ -23,7 +23,7 @@ const Footer = () => {
             <IG />
           </div>
         </div>
-        <Navigation>
+        <Navigation isNav={false}>
           <ul className='grid gap-4 md:grid-rows-3 md:grid-flow-col text-lightGreyishBlue text-normal text-center md:text-justify'>
             <li className='mr-auto'>
               <a href='#'>About Us</a>
@@ -47,7 +47,7 @@ const Footer = () => {
         </Navigation>
         <div className='flex flex-col gap-12 '>
           <StyledButton className='mx-auto md:mr-0'>
-            Request Invites
+            Request Invite
           </StyledButton>
           <p className='text-normal text-center md:text-right text-greyishBlue md:text-[1.4rem] lg:text-normal'>
             &#169; Easybank. All Rights Reserved

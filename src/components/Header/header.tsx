@@ -27,7 +27,8 @@ const Header = () => {
         <HeaderContainer className='container'>
           <img src={LogoIcon} alt='easybank logo ' className='bg-white' />
           <Navigation
-            className={`${
+            isNav={true}
+            className={`  ${
               toggle ? 'block ' : 'hidden'
             }  absolute container   max-w-full top-40 left-0  z-50 md:static md:flex  lg:gap-16`}
           >
@@ -49,7 +50,7 @@ const Header = () => {
               </li>
             </ul>
           </Navigation>
-          <HeaderButton>Request Invites</HeaderButton>
+          <HeaderButton>Request Invite</HeaderButton>
           <HamBurgerMenu
             className={` sm:block ${toggle ? 'open' : ''} md:hidden `}
             onClick={() => setToggle((toggle) => !toggle)}
